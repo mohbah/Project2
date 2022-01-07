@@ -14,6 +14,8 @@ public interface ShopperDao {
 
     Boolean decline_a_shoppinglist_by_shopper(int Shoppinglistid);
 
+    boolean updateListStatusByShopper(int shoppingListId);
 
+    List<ShoppingList> getAllShoppingLists();
 
 }
