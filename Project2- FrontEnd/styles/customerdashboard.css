@@ -1,0 +1,52 @@
+#filter-container{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+#all{
+    width: 30%;
+}
+
+#incompleted{
+    width: 30%;
+}
+
+#completed{
+    width: 30%;
+    
+}
+#newlist{
+    width: 20%;
+}
+#Customer-comment{
+    width: 80%;
+}
+
+#filter-container2{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.list-card{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+
