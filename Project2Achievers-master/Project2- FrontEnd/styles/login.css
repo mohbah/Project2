@@ -1,0 +1,77 @@
+.employee-login-container{
+    position: fixed;
+    top: 1px;
+    right: 720px;
+}
+
+.manager-login-container{
+    position: fixed;
+    top: 340px;
+    right: 720px;
+  
+    
+}
+
+#login-form{
+    border-radius: 8px;
+    margin-top: 150px;
+    width:  500px; 
+    background-color: rgb(79, 96, 138); 
+    padding: 15px
+    
+}
+
+#login-form2{
+    border-radius: 8px;
+    margin-top: 150px;
+    width:  500px; 
+    background-color: rgb(79, 96, 138); 
+    padding: 15px
+    
+}
+
+#login-form div{
+    margin: 10px;
+}
+
+#login-form2 div{
+    margin: 10px;
+}
+
+#username, #password, #login-btn, #name, #zipcode, #age{
+    width: 100%;
+}
+
+#username2, #password2, #login-btn2{
+    width: 100%;
+}
+
+#login-btn{
+    background-color: rgb(30, 28, 61);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#login-btn2{
+    background-color: rgb(30, 28, 61);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#login-btn:hover{
+    background-color: rgb(5, 4, 20);
+}
+
+#login-btn2:hover{
+    background-color: rgb(5, 4, 20);
+}
+
+body{
+    background-image: url(https://media.gettyimages.com/photos/supermarket-aisle-with-shelfs-full-of-a-variety-of-products-picture-id1152072078?s=2048x2048);
+    background-size: cover;
+}
+
+#register-btn{
+    background-color: rgb(30, 28, 61);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}    

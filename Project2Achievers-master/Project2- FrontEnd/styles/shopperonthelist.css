@@ -1,0 +1,54 @@
+#reimb-table{
+    position: fixed;
+    top: 170px;
+    right: 100px;
+    width: 90%;
+    margin: 20px auto 0px;
+}
+
+table{
+    margin: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+td{
+    background-color: rgb(85, 84, 84);
+    color: white;
+}
+
+th {
+    background-color: rgb(79, 96, 138); 
+    color: white;
+}
+
+body{
+    background-color: rgb(7, 72, 109);
+}
+
+#t{
+    position: fixed;
+    top: 140px;
+    left: 620px;
+    width: 8.25%;
+}
+
+#filter-container2{
+    position: fixed;
+    width: 140%;
+    bottom: 10px;
+    left: 400px;
+}
+
+#shopper-comment{
+    width: 30%;
+}
+

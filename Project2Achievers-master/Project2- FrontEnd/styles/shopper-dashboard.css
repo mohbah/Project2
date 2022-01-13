@@ -1,0 +1,27 @@
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.list-card{
+    background-color: rgb(255, 252, 205);
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 8px;
+    
+}
+
+body{
+    background-image: url(https://media.gettyimages.com/photos/supermarket-aisle-with-shelfs-full-of-a-variety-of-products-picture-id1152072078?s=2048x2048);
+    background-size: cover;
+}
+
+
